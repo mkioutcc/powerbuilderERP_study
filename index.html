@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>PowerBuilder ERP 學習路徑圖</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-6xl">
+        <header class="mb-10 text-center">
+            <div class="flex justify-center items-center mb-4">
+                <img src="assets/pb-logo.svg" alt="PowerBuilder Logo" class="h-16 mr-4">
+                <h1 class="text-4xl font-bold text-gray-900">PowerBuilder ERP 學習路徑圖</h1>
+            </div>
+            <p class="text-gray-600 text-lg max-w-3xl mx-auto">為初學者量身打造的 PowerBuilder 技能圖表，聚焦於 ERP 系統的開發與維護，助您快速掌握企業級應用程式的核心技能</p>
+        </header>
+
+        <div class="learning-path-container">
+            <!-- 基礎階段 -->
+            <section id="basics" class="learning-stage">
+                <div class="stage-header">
+                    <h2 class="text-2xl font-bold text-gray-900">
+                        <span class="stage-number">1</span>基礎知識
+                    </h2>
+                    <p class="text-gray-600">掌握 PowerBuilder 開發環境與基本語法</p>
+                </div>
+                <div class="stage-content">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="skill-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"></rect><line x1="3" x2="21" y1="9" y2="9"></line><line x1="9" x2="9" y1="21" y2="9"></line></svg>
+                            <h3 class="skill-title">開發環境設置</h3>
+                        </div>
+                        <ul class="skill-details">
+                            <li>安裝與配置 PowerBuilder IDE</li>
+                            <li>了解 PowerBuilder 的工作區結構</li>
+                            <li>PowerBuilder 專案架構與組織</li>
+                            <li>ERP 專案環境設定與配置</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="skill-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+                            <h3 class="skill-title">PowerScript 基礎</h3>
+                        </div>
+                        <ul class="skill-details">
+                            <li>資料型態與變數宣告</li>
+                            <li>控制結構 (if-then-else, case)</li>
+                            <li>迴圈與陣列處理</li>
+                            <li>錯誤處理機制</li>
+                            <li>事件驅動程式設計</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="skill-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+                            <h3 class="skill-title">資料庫基礎連接</h3>
+                        </div>
+                        <ul class="skill-details">
+                            <li>資料庫連接設定 (ODBC, OLE DB)</li>
+                            <li>基本 SQL 語法與操作</li>
+                            <li>交易處理基礎</li>
+                            <li>ERP 資料結構初探</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 中級階段 -->
+            <section id="intermediate" class="learning-stage">
+                <div class="stage-header">
+                    <h2 class="text-2xl font-bold text-gray-900">
+                        <span class="stage-number">2</span>中級技能
+                    </h2>
+                    <p class="text-gray-600">深入 PowerBuilder 核心功能與 ERP 應用</p>
+                </div>
+                <div class="stage-content">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="skill-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8.5" cy="8.5" r="1.5" /><path d="M20.4 14.5 16 10 4 20" /></svg>
+                            <h3 class="skill-title">DataWindow 技術</h3>
+                        </div>
+                        <ul class="skill-details">
+                            <li>DataWindow 類型與使用場景</li>
+                            <li>資料繫結與事件處理</li>
+                            <li>自定義 DataWindow 呈現樣式</li>
+                            <li>ERP 表單設計與實作</li>
+                            <li>報表設計與列印</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="skill-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                            <h3 class="skill-title">物件導向程式設計</h3>
+                        </div>
+                        <ul class="skill-details">
+                            <li>類別與物件概念</li>
+                            <li>繼承與多型應用</li>
+                            <li>建構子與解構子</li>
+                            <li>封裝與存取修飾詞</li>
+                            <li>模組化設計原則</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="skill-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path><line x1="4" y1="22" x2="4" y2="15"></line></svg>
+                            <h3 class="skill-title">進階資料處理</h3>
+                        </div>
+                        <ul class="skill-details">
+                            <li>複雜 SQL 查詢與優化</li>
+                            <li>預存程序與函數應用</li>
+                            <li>大量資料處理策略</li>
+                            <li>交易管理與資料完整性</li>
+                            <li>ERP 資料模型與設計模式</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 高級階段 -->
+            <section id="advanced" class="learning-stage">
+                <div class="stage-header">
+                    <h2 class="text-2xl font-bold text-gray-900">
+                        <span class="stage-number">3</span>高級技能
+                    </h2>
+                    <p class="text-gray-600">ERP 系統專業開發與整合</p>
+                </div>
+                <div class="stage-content">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="skill-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="m2 12 10 5 10-5"></path><path d="M12 2v20"></path></svg>
+                            <h3 class="skill-title">系統整合技術</h3>
+                        </div>
+                        <ul class="skill-details">
+                            <li>外部系統 API 整合</li>
+                            <li>RESTful Web 服務呼叫</li>
+                            <li>JSON/XML 資料處理</li>
+                            <li>SSO 與身份驗證整合</li>
+                            <li>異質系統資料交換</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="skill-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"></rect><line x1="2" y1="10" x2="22" y2="10"></line></svg>
+                            <h3 class="skill-title">ERP 模組開發</h3>
+                        </div>
+                        <ul class="skill-details">
+                            <li>財務模組開發與整合</li>
+                            <li>庫存/生產/銷售模組設計</li>
+                            <li>人力資源模組應用</li>
+                            <li>模組間資料流與業務流程</li>
+                            <li>ERP 系統架構設計</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="skill-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                            <h3 class="skill-title">效能優化技術</h3>
+                        </div>
+                        <ul class="skill-details">
+                            <li>SQL 查詢優化與索引設計</li>
+                            <li>DataWindow 效能調校</li>
+                            <li>大規模 ERP 系統效能管理</li>
+                            <li>記憶體使用優化</li>
+                            <li>系統瓶頸診斷與解決</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 專業實踐階段 -->
+            <section id="professional" class="learning-stage">
+                <div class="stage-header">
+                    <h2 class="text-2xl font-bold text-gray-900">
+                        <span class="stage-number">4</span>專業實踐
+                    </h2>
+                    <p class="text-gray-600">成為 PowerBuilder ERP 專家</p>
+                </div>
+                <div class="stage-content">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="skill-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9Z"></path><path d="m3 9 2.45-4.9A2 2 0 0 1 7.24 3h9.52a2 2 0 0 1 1.8 1.1L21 9"></path><path d="M12 3v6"></path></svg>
+                            <h3 class="skill-title">系統維護與重構</h3>
+                        </div>
+                        <ul class="skill-details">
+                            <li>遺留系統診斷與評估</li>
+                            <li>代碼重構與優化</li>
+                            <li>系統升級策略</li>
+                            <li>問題排除與疑難解決</li>
+                            <li>技術債管理與改善</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="skill-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+                            <h3 class="skill-title">安全與部署</h3>
+                        </div>
+                        <ul class="skill-details">
+                            <li>應用程式安全性設計</li>
+                            <li>使用者認證與授權管理</li>
+                            <li>資料安全與加密</li>
+                            <li>ERP 系統部署策略</li>
+                            <li>版本控制與變更管理</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="skill-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                            <h3 class="skill-title">最佳實踐與溝通</h3>
+                        </div>
+                        <ul class="skill-details">
+                            <li>PowerBuilder 設計模式應用</li>
+                            <li>代碼標準與文檔管理</li>
+                            <li>團隊協作與知識分享</li>
+                            <li>需求分析與業務溝通</li>
+                            <li>ERP 實施顧問技能</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="code-examples mt-16 mb-12">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6 text-center">常用 PowerBuilder 程式碼範例</h2>
+            
+            <div class="code-tabs">
+                <div class="code-tab-headers">
+                    <button class="code-tab-btn active" data-tab="db-connection">資料庫連接</button>
+                    <button class="code-tab-btn" data-tab="datawindow">DataWindow 操作</button>
+                    <button class="code-tab-btn" data-tab="api-integration">API 整合</button>
+                </div>
+                
+                <div class="code-tab-content">
+                    <div class="code-tab-pane active" id="db-connection">
+                        <pre class="code-block font-geist-mono">
+// 設定資料庫連線參數 (以 SQL Server 為例)
+SQLCA.DBMS = "SNC SQL Server"
+SQLCA.Database = "ERP_Database"
+SQLCA.ServerName = "ServerName"
+SQLCA.LogId = "username"
+SQLCA.LogPass = "password"
+SQLCA.AutoCommit = False
+
+// 建立資料庫連線
+CONNECT USING SQLCA;
+
+IF SQLCA.SQLCode < 0 THEN
+    MessageBox("連線錯誤", "無法連接到資料庫: " + SQLCA.SQLErrText)
+    RETURN
+END IF
+
+// 執行查詢
+String ls_sql = "SELECT customer_id, customer_name FROM customers"
+DECLARE cust_cursor CURSOR FOR SQLSA;
+PREPARE SQLSA FROM :ls_sql;
+OPEN cust_cursor;
+
+// 處理查詢結果
+FETCH cust_cursor INTO :ll_id, :ls_name;
+DO WHILE SQLCA.SQLCode = 0
+    // 處理資料
+    FETCH cust_cursor INTO :ll_id, :ls_name;
+LOOP
+
+// 關閉資料庫連線
+CLOSE cust_cursor;
+DISCONNECT USING SQLCA;</pre>
+                    </div>
+                    
+                    <div class="code-tab-pane" id="datawindow">
+                        <pre class="code-block font-geist-mono">
+// 綁定 DataWindow 控制項到資料來源
+dw_customer.SetTransObject(SQLCA)
+
+// 檢索資料
+Long ll_rows
+ll_rows = dw_customer.Retrieve()
+
+IF ll_rows = 0 THEN
+    MessageBox("提示", "沒有符合條件的資料")
+ELSEIF ll_rows < 0 THEN
+    MessageBox("錯誤", "檢索資料時發生錯誤: " + String(ll_rows))
+END IF
+
+// 新增一筆資料
+Long ll_row
+ll_row = dw_customer.InsertRow(0)
+dw_customer.SetItem(ll_row, "customer_name", "新客戶")
+dw_customer.SetItem(ll_row, "contact_person", "聯絡人")
+dw_customer.SetItem(ll_row, "phone", "02-12345678")
+
+// 更新資料庫
+IF dw_customer.Update() = 1 THEN
+    COMMIT USING SQLCA;
+    MessageBox("成功", "資料已成功更新")
+ELSE
+    ROLLBACK USING SQLCA;
+    MessageBox("錯誤", "更新資料失敗: " + SQLCA.SQLErrText)
+END IF</pre>
+                    </div>
+                    
+                    <div class="code-tab-pane" id="api-integration">
+                        <pre class="code-block font-geist-mono">
+// 創建 HTTP 客戶端物件
+OLEObject lole_http
+lole_http = CREATE OLEObject
+
+// 連接到 MSXML2.XMLHTTP 物件
+Integer li_return
+li_return = lole_http.ConnectToObject("MSXML2.XMLHTTP")
+
+IF li_return < 0 THEN
+    MessageBox("錯誤", "無法創建 HTTP 物件")
+    RETURN
+END IF
+
+// 設定 HTTP 請求
+String ls_url = "https://api.example.com/orders"
+String ls_method = "GET"
+lole_http.Open(ls_method, ls_url, False)
+lole_http.SetRequestHeader("Content-Type", "application/json")
+
+// 發送請求
+lole_http.Send()
+
+// 處理回應
+Integer li_status = lole_http.Status
+String ls_response = lole_http.ResponseText
+
+IF li_status = 200 THEN
+    // 解析 JSON 回應 (需要 JSON 解析器)
+    // ...處理回應資料
+ELSE
+    MessageBox("API 錯誤", "HTTP 狀態碼: " + String(li_status))
+END IF
+
+// 釋放資源
+DESTROY lole_http</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="erp-modules-diagram mt-16 mb-12">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6 text-center">PowerBuilder ERP 系統模組架構</h2>
+            
+            <div class="diagram-container">
+                <div class="diagram-core">
+                    <div class="core-module">
+                        <span>系統核心</span>
+                    </div>
+                </div>
+                <div class="diagram-modules">
+                    <div class="module-item" data-module="financial">
+                        <div class="module-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"></rect><line x1="2" y1="10" x2="22" y2="10"></line></svg>
+                        </div>
+                        <div class="module-name">財務模組</div>
+                        <div class="module-popup">
+                            <h4>財務模組</h4>
+                            <ul>
+                                <li>總帳管理</li>
+                                <li>應收/應付帳款</li>
+                                <li>固定資產</li>
+                                <li>成本分析</li>
+                                <li>預算管理</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="module-item" data-module="inventory">
+                        <div class="module-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9Z"></path><path d="m3 9 2.45-4.9A2 2 0 0 1 7.24 3h9.52a2 2 0 0 1 1.8 1.1L21 9"></path><path d="M12 3v6"></path></svg>
+                        </div>
+                        <div class="module-name">庫存模組</div>
+                        <div class="module-popup">
+                            <h4>庫存模組</h4>
+                            <ul>
+                                <li>庫存管理</li>
+                                <li>倉儲物流</li>
+                                <li>條碼管理</li>
+                                <li>批次/序號追蹤</li>
+                                <li>庫存盤點</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="module-item" data-module="production">
+                        <div class="module-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path><path d="M12 15v5c0 2 1 3 3 3s3-1 3-3v-1"></path></svg>
+                        </div>
+                        <div class="module-name">生產模組</div>
+                        <div class="module-popup">
+                            <h4>生產模組</h4>
+                            <ul>
+                                <li>生產排程</li>
+                                <li>物料需求計劃</li>
+                                <li>製造執行</li>
+                                <li>品質管理</li>
+                                <li>工單追蹤</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="module-item" data-module="sales">
+                        <div class="module-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path><path d="M3 6h18"></path><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                        </div>
+                        <div class="module-name">銷售模組</div>
+                        <div class="module-popup">
+                            <h4>銷售模組</h4>
+                            <ul>
+                                <li>訂單管理</li>
+                                <li>客戶管理</li>
+                                <li>銷售分析</li>
+                                <li>報價管理</li>
+                                <li>促銷活動</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="module-item" data-module="hr">
+                        <div class="module-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                        </div>
+                        <div class="module-name">人資模組</div>
+                        <div class="module-popup">
+                            <h4>人資模組</h4>
+                            <ul>
+                                <li>員工資料管理</li>
+                                <li>薪資計算</li>
+                                <li>考勤管理</li>
+                                <li>績效評估</li>
+                                <li>招聘管理</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="module-item" data-module="report">
+                        <div class="module-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                        </div>
+                        <div class="module-name">報表模組</div>
+                        <div class="module-popup">
+                            <h4>報表模組</h4>
+                            <ul>
+                                <li>財務報表</li>
+                                <li>營運分析</li>
+                                <li>績效指標</li>
+                                <li>客製化報表</li>
+                                <li>資料視覺化</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="resources mt-16 mb-12">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6 text-center">學習資源推薦</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path></svg>
+                    </div>
+                    <h3 class="resource-title">官方文件與手冊</h3>
+                    <ul class="resource-links">
+                        <li><a href="#" class="resource-link">PowerBuilder 官方文件庫</a></li>
+                        <li><a href="#" class="resource-link">PowerBuilder 技術指南</a></li>
+                        <li><a href="#" class="resource-link">ERP 開發最佳實踐</a></li>
+                    </ul>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+                    </div>
+                    <h3 class="resource-title">社區與論壇</h3>
+                    <ul class="resource-links">
+                        <li><a href="#" class="resource-link">PowerBuilder 開發者社區</a></li>
+                        <li><a href="#" class="resource-link">Stack Overflow PowerBuilder 標籤</a></li>
+                        <li><a href="#" class="resource-link">LinkedIn PowerBuilder 群組</a></li>
+                    </ul>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                    </div>
+                    <h3 class="resource-title">線上課程與教學</h3>
+                    <ul class="resource-links">
+                        <li><a href="#" class="resource-link">PowerBuilder 基礎到進階課程</a></li>
+                        <li><a href="#" class="resource-link">ERP 系統開發實戰</a></li>
+                        <li><a href="#" class="resource-link">DataWindow 進階技巧</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <footer class="text-center text-gray-600 text-sm py-6 border-t border-gray-200 mt-8">
+            <p>Built with <a href="https://flowith.net" target="_blank" class="text-blue-600 hover:underline">Flowith Oracle</a>.</p>
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/lucide-icons@latest/dist/umd/lucide.min.js"></script>
+    <script src="scripts.js"></script>
+    <script>
+        window.addEventListener("wheel", (e)=> {
+            const isPinching = e.ctrlKey
+            if(isPinching) e.preventDefault()
+        }, { passive: false })
+    </script>
+</body>
+</html>
